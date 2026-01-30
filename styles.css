@@ -17,29 +17,26 @@ h1 {
   padding: 20px 0;
 }
 
-/* Define the shape and responsive width of the markers */
+/* Ensure the marker components sit perfectly next to each other */
 .marker {
-  width: 80%;           /* Scale with screen width */
-  max-width: 400px;     /* Prevent them from becoming too long on desktop */
+  width: 80%;
+  max-width: 400px;
   height: 25px;
   margin: 10px 0;
-  background-color: #ddd; /* Temporary color to see the shape */
-}
-
-/* Position cap and sleeve side by side */
-.cap, .sleeve {
-  display: inline-block;
-  height: 25px;
+  display: flex; /* Flexbox statt inline-block verhindert Lücken */
+  align-items: center;
 }
 
 .cap {
-  width: 20%;           /* Cap takes up a fifth of the marker */
+  width: 60px; /* Feste Breite für die Kappe wie im Original */
+  height: 25px;
 }
 
 .sleeve {
-  width: 80%;           /* Sleeve takes up the rest */
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent overlay */
-  border-left: 10px double rgba(0, 0, 0, 0.75); /* Visual marker for the sleeve */
+  flex: 1; /* Hülse nimmt den restlichen Platz ein */
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
 }
 
 /* Final coloring with 3D gradients and shadows */
