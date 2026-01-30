@@ -1,4 +1,4 @@
-# 🌐 CSS Colored Markers - ![Status](https://img.shields.io/badge/in%20progress-yellow)
+# 🌐 CSS Colored Markers - ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
 A visual practice project from freeCodeCamp focusing on complex CSS styling to create realistic markers using gradients and shadows.
 
