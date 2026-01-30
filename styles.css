@@ -41,3 +41,23 @@ h1 {
   background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent overlay */
   border-left: 10px double rgba(0, 0, 0, 0.75); /* Visual marker for the sleeve */
 }
+
+/* Final coloring with 3D gradients and shadows */
+
+/* Red Marker: using RGB values */
+.red {
+  background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+/* Green Marker: using Hex codes */
+.green {
+  background: linear-gradient(#55680D, #71F53E, #116C31);
+  box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+
+/* Blue Marker: using HSL values */
+.blue {
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
