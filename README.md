@@ -21,7 +21,7 @@ A visual practice project from freeCodeCamp focusing on complex CSS styling to c
 2. Open the `index.html` file in your preferred browser.
 
 ## 🖼 Preview
-*This section is currently a work in progress and will be expanded as the project moves forward.*
+![Project Preview](preview.png)
 
 
 ### Quick Links
